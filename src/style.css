@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url("https://media.istockphoto.com/photos/wooden-planks-texture-picture-id473492542?k=20&m=473492542&s=170667a&w=0&h=gmVqvcYUQccHplAwBWjD7oZMXgRmxt755DWP-fqv6Xs=");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  font-family: "Creepster", cursive;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+h2 {
+  box-sizing: border-box;
+  width: 40%;
+  border: solid #625c5a 5px;
+  display: flex;
+  margin: auto;
+}
+.to_bottom {
+  display: flex;
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-top: 30px solid rgb(82, 77, 77);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  justify-content: center;
+}
